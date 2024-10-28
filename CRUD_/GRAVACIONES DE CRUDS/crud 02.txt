@@ -1,0 +1,25 @@
+base de datos 02
+
+create database crud_02;
+
+use crud_02;
+
+CREATE TABLE Persona (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    Nombre VARCHAR(50),
+    Edad INT,
+    DNI VARCHAR(20),
+    Direccion VARCHAR(100),
+    Telefono VARCHAR(15)
+);
+
+INSERT INTO Persona (Nombre, Edad, DNI, Direccion, Telefono)
+VALUES 
+    ('prueva1', 25, '12345678', 'Calle Principal 123', '123456789'),
+    ('prueva2', 30, '87654321', 'Avenida Central 456', '987654321'),
+    ('prueva3', 22, '56789012', 'Plaza Secundaria 789', '456789012'),
+    ('prueva4', 28, '90123456', 'Carrera Secundaria 345', '789012345'),
+    ('prueva5', 35, '34567890', 'Calle Secundaria 678', '234567890'),
+    ('prueva6', 27, '23456789', 'Avenida Principal 901', '678901234');
+    
+    select * from persona;

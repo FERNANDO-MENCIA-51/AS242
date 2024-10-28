@@ -1,0 +1,18 @@
+base de datos 
+
+use record;
+
+CREATE TABLE Persona (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    Nombre VARCHAR(50),
+    Telefono VARCHAR(15)
+);
+INSERT INTO Persona (Nombre, Telefono) VALUES
+('prueva 1', '123456789'),
+('María', '987654321'),
+('Pedro', '111222333'),
+('Ana', '444555666'),
+('Carlos', '777888999'),
+('Laura', '666777888');
+
+select * from persona;
